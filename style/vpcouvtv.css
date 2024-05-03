@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/* Versão PC ou TV */
+
+#login{
+    width: 990px;
+    height: 420px;
+}
+
+#imagem{
+    width: 60%;
+    float: right;
+}
+
+#formulário{
+    width: 40%;
+    float: left;
+}

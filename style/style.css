@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+/* Mobile First */
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Paleta de Cores
+
+ Verde Slime: #72D61B
+ Roxo "Vinho": #210140
+ Roxo Forte: #3703A6
+ Roxo: #260273
+ Roxo Clarinho: #C4AEF2
+ Roxo quase Branco: #ded4f3
+ Preto: #00010D
+ Azul Escuro: #010326
+ Roxão: #7C05F2
+
+*/
+
+:root{
+
+    --cor001: #72D61B;
+    --cor002: #4b1683;
+    --cor003: #3703A6;
+    --cor004: #260273;
+    --cor005: #C4AEF2;
+    --cor006: #00010D;
+    --cor007: #ded4f3;
+    --cor008: #080b42;
+    --cor009: #963af1;
+
+}
+
+
+
+body, html{
+    background-color: var(--cor004);
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#formulário a{
+    margin: auto;
+}
+
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.726);
+    width: 271px;
+    height: 550px;
+
+    transition: width 500ms, height 500ms;
+    transform: translate(-50%, -50%);
+}
+
+#imagem{
+    display: block;
+    height: 200px;
+    background: var(--cor004) url('../imagem/pexels-lulizler-3165335.jpg') no-repeat;
+    background-size: cover;
+}
+
+#formulário{
+    padding: 10px;
+}
+
+#formulário h1{
+    padding: 10px;
+    text-align: center;
+}
+
+#formulário > p{
+    text-align: center;
+}
+
+#formulário form{
+    padding-top: 10px;
+}
+
+.boxinput{
+    margin: 4%;
+    border-radius: 20px;
+    background-color: var(--cor002);
+    padding: 10px;
+}
+
+.boxinput > i{
+    color: var(--cor005);
+}
+
+.boxinput > input{
+    width: 86%;
+    border: none;
+    color: white;
+    background-color: rgb(44, 54, 77);
+    border-radius: 10px;
+    padding: 9px;
+}
+
+.boxinput > input:focus-within{
+    background-color: white;
+}
+
+#acessar{
+    font-weight: bold;
+    background-color: var(--cor009);
+    color: var(--cor001);
+    border-radius: 5px;
+    margin: auto;
+    width: 240px;
+    padding: 10px;
+    display: block;
+}
+
+#acessar:hover{
+    background-color: #5504a5;
+    cursor: pointer;
+}
+
+#caixalink{
+    cursor: pointer;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 5px;
+    width: 240px;
+    border-radius: 5px;
+    border: 2px solid var(--cor009);
+    padding: 9px;
+}
+
+#caixalink:hover{
+    background-color: #822ada;
+}
+
+#caixalink > a{
+    display: block;
+    text-align: center;
+    color: var(--cor001);
+    text-decoration: none;
+}
+
+#caixalink > a > i{
+    font-size: 1.2em;
+}

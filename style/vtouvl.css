@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* Versão Tablet ou Landscape */
+
+body, html{
+    background-image: linear-gradient(to right bottom, #160046, #3703A6, #8450f3 70%);
+}
+
+#login{
+    width: 90vw;
+    height: 370px;
+}
+
+#imagem{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#formulário{
+    width: 50%;
+    float: right;
+}
